@@ -1,3 +1,3 @@
-n=input()
-s=input()
-print(int(n)*s)
+n,s =input().split()
+c = int(n)**int(s)
+print(c)
