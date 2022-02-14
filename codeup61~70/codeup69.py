@@ -11,7 +11,7 @@ D : slowly~
 """
 
 a = input()
-print("best!!!") if a=='A' else print("good") if a =='b' else print("run!") if a =='C' else print("slowly") if a == 'D' else print("what?")
+print("best!!!") if a=='A' else print("good!!") if a =='b' else print("run!") if a =='C' else print("slowly~") if a == 'D' else print("what?")
 """if a == 'A':
   print("best!!!")
 elif a == 'B':
