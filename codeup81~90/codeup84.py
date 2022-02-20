@@ -1,11 +1,3 @@
-r,g,b =map(int,input().split())
+h,b,c,s = map(int,input().split())
+print(round(h*b*c*s/8/1024/1024, 1), "MB")
 
-i=0
-j=0
-z=0
-count = 0
-for i in range(r):
-  for j in range(g):
-    for z in range(b):
-      print(i,j,z,sep=' ')
-print(r*g*b)
